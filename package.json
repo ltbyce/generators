@@ -4,10 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    
+    "----//----TSET----//----": " test shell",
+    "test": "node ./internals/start.js",
+    "----//----LEARN----//----": " test shell",
+    "path": "node ./internals/learn/learnPath.js",
+    "fs": "node ./internals/learn/learnFs.js --name=ycq --template  --admin -f"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-plop": "^0.26.2"
+  }
 }
